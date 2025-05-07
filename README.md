@@ -15,6 +15,7 @@ A basic calculator built with React that supports basic arithmetic operations (`
   - Division by zero (e.g. `5 / 0`) → `Infinity`
 
 ## 📸 Demo Examples
+
 ```
 | Example               | Input Field | Result |
 |-----------------------|---------------------------|---------------------------|
@@ -24,7 +25,7 @@ A basic calculator built with React that supports basic arithmetic operations (`
 | Clear                 | Press `C`                 | Input & Output cleared    |
 | BODMAS Rule           | `2+3*4-5/1`               | 9                         |
 | Invalid               | Press `=` with no input   | `Error`                   |
-| `0/0`                 | `0/0` then `=`            | `NaN`                     | 
+| `0/0`                 | `0/0` then `=`            | `NaN`                     |
 | Division by Zero      | `5/0` then `=`            | `Infinity`                |
 |-----------------------|---------------------------|----------------------------
 ```
@@ -50,18 +51,20 @@ calculator-app/
 ```
 
 ## 🖥️ Screenshot (Initial Render)
-![XCalculator UI](https://github.com/Siddharth-Bose/XCounter/blob/main/public/initial%20render.png)
+
+![XCalculator UI](https://github.com/Siddharth-Bose/XCalculator/blob/main/public/Screenshot.png)
 
 ## ✅ Requirements Fulfilled
- Only ```<button>``` tags used for calculator buttons.
 
- Only one <input> used for expression field.
+Only `<button>` tags used for calculator buttons.
 
- Only one <div> used for output/result display.
+Only one `<input>` used for expression field.
 
- Expression evaluation respects BODMAS.
+Only one `<div>` used for output/result display.
 
- Edge case handling for =, NaN, and Infinity.
+Expression evaluation respects BODMAS.
+
+Edge case handling for =, NaN, and Infinity.
 
 ## 🛠️ Getting Started
 
@@ -80,3 +83,4 @@ npm run dev
 
 # Visit
 http://localhost:5173
+```
