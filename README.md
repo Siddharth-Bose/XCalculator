@@ -53,7 +53,7 @@ calculator-app/
 ![XCalculator UI](https://github.com/Siddharth-Bose/XCounter/blob/main/public/initial%20render.png)
 
 ## ✅ Requirements Fulfilled
- Only <button> tags used for calculator buttons.
+ Only ```<button>``` tags used for calculator buttons.
 
  Only one <input> used for expression field.
 
